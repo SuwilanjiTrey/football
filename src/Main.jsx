@@ -20,7 +20,7 @@ const ZambianSoccerClubWebsite = () => {
       position: 'Forward',
       number: 20,
       stats: { goals: 45, assists: 12, rating: 8.4 },
-      image: '/patsondaka.png'
+      image: '/football/patsondaka.png'
     },
     { 
       id: 2, 
@@ -28,7 +28,7 @@ const ZambianSoccerClubWebsite = () => {
       position: 'Winger',
       number: 17,
       stats: { goals: 32, assists: 18, rating: 8.1 },
-      image: '/fashion_sakala.png'
+      image: '/football/fashion_sakala.png'
     },
     { 
       id: 3, 
@@ -36,7 +36,7 @@ const ZambianSoccerClubWebsite = () => {
       position: 'Midfielder',
       number: 6,
       stats: { goals: 8, assists: 25, rating: 8.7 },
-      image: '/sunzu.png'
+      image: '/football/sunzu.png'
     }
   ];
   
