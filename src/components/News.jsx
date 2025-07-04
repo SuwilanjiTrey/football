@@ -30,7 +30,7 @@ return (
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 flex items-center">
             <span className="w-8 h-8 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-white text-xs mr-3 border border-red-600">
-              <img src="/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+              <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
             </span>
             LATEST NEWS
           </h2>
