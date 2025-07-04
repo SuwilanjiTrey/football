@@ -6,21 +6,21 @@ const News = () => {
       title: 'Chipolopolo Warriors Win CAF Championship',
       date: 'March 3, 2025',
       preview: 'The Copper Bullets secure victory in a thrilling final at Heroes Stadium.',
-      image: '/victory.jpg'
+      image: '/football/victory.jpg'
     },
     {
       id: 2,
       title: 'New Training Ground Opens in Lusaka',
       date: 'February 20, 2025',
       preview: 'State-of-the-art facilities to develop the next generation of Zambian talent.',
-      image: '/training.jpg'
+      image: '/football/training.jpg'
     },
     {
       id: 3,
       title: 'Youth Academy Star Joins Senior Team',
       date: 'February 10, 2025',
       preview: '18-year-old sensation from Kitwe academy earns professional contract.',
-      image: '/youth.jpg'
+      image: '/football/youth.jpg'
     }
   ];
 

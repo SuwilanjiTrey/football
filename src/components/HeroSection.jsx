@@ -12,7 +12,7 @@ const HeroSection = () => {
     <section className="relative h-screen pt-16 md:pt-20 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-green-900/30 md:via-green-900/20 to-transparent z-10"></div>
-        <img src="/soccer.png" alt="Stadium" className="w-full h-full object-cover" />
+        <img src="/football/soccer.png" alt="Stadium" className="w-full h-full object-cover" />
       </div>
       
       {/* Mobile Layout */}
@@ -65,14 +65,14 @@ const HeroSection = () => {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-xs font-bold border border-red-600 mr-2">
-                  <img src="/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+                  <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
                 </div>
                 <span className="font-bold text-xs">CHIPOLOPOLO FC</span>
               </div>
               <span className="text-sm font-bold text-orange-400">VS</span>
               <div className="flex items-center">
                 <span className="font-bold text-xs mr-2">ZANACO FC</span>
-                <img src="/zanaco.png" alt="ZFC" className="w-8 h-8 object-cover rounded-full" />
+                <img src="/football/zanaco.png" alt="ZFC" className="w-8 h-8 object-cover rounded-full" />
               </div>
             </div>
             <div className="text-center text-xs mb-3">
@@ -89,14 +89,14 @@ const HeroSection = () => {
             <div className="flex justify-between items-center mb-2">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-xs font-bold border border-red-600">
-                  <img src="/chipologo.png" alt="CFC" className="w-12 h-8 object-cover rounded-full" />
+                  <img src="/football/chipologo.png" alt="CFC" className="w-12 h-8 object-cover rounded-full" />
                 </div>
                 <span className="ml-2 font-bold text-sm">CHIPOLOPOLO FC</span>
               </div>
               <span className="text-xl font-bold text-orange-400">VS</span>
               <div className="flex items-center">
                 <span className="mr-2 font-bold text-sm">ZANACO FC</span>
-                <img src="/zanaco.png" alt="ZFC" className="w-12 h-12 object-cover rounded-full" />
+                <img src="/football/zanaco.png" alt="ZFC" className="w-12 h-12 object-cover rounded-full" />
               </div>
             </div>
             <div className="mt-3 text-center text-sm">
