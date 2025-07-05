@@ -1,19 +1,19 @@
 {
-  "short_name": "Chipolopolo boys",
-  "name": "chipolopolo",
+  "short_name": "Zambia Premier League",
+  "name": "ZPL",
   "icons": [
     {
-      "src": "/football/chipologo.png",
+      "src": "/football/ZPL.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/football/chipologo.png",
+      "src": "/football/ZPL.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/football/chipologo.png",
+      "src": "/football/ZPL.png",
       "type": "image/png",
       "sizes": "512x512"
     }
