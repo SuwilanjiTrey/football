@@ -6,6 +6,7 @@ const Match = () => {
   const matches = [
     {
       id: 1,
+      home: 'Green Eagles FC',
       opponent: 'Zanaco FC',
       location: 'Home',
       date: 'March 12, 2025',
@@ -13,6 +14,7 @@ const Match = () => {
     },
     {
       id: 2,
+      home: 'Kansashi Dynamos',
       opponent: 'Nkana FC',
       location: 'Away',
       date: 'March 19, 2025',
@@ -20,6 +22,7 @@ const Match = () => {
     },
     {
       id: 3,
+      home: 'NAPSA stars',
       opponent: 'Power Dynamos',
       location: 'Home',
       date: 'March 26, 2025',
@@ -32,7 +35,7 @@ const Match = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 flex items-center">
           <span className="w-6 h-6 md:w-8 md:h-8 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-white text-xs mr-2 md:mr-3 border border-red-600">
-           <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+           <img src="/football/ZPL.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
           </span>
           UPCOMING MATCHES
         </h2>
@@ -61,7 +64,7 @@ const Match = () => {
                 {/* Teams */}
                 <div className="mb-4">
                   <div className="flex items-center justify-center mb-2">
-                    <span className="text-green-400 font-bold text-lg">CHIPOLOPOLO FC</span>
+                    <span className="text-green-400 font-bold text-lg">{match.home}</span>
                   </div>
                   <div className="flex items-center justify-center mb-2">
                     <span className="text-orange-400 font-bold text-sm">VS</span>
@@ -101,7 +104,7 @@ const Match = () => {
                   <div>
                     <div className="text-sm text-gray-400">{match.date} • {match.time}</div>
                     <div className="text-xl font-bold mt-1 flex items-center">
-                      <span className="text-green-400">CHIPOLOPOLO FC</span>
+                      <span className="text-green-400">{match.home}</span>
                       <span className="mx-3 text-orange-400">VS</span>
                       <span className="text-white">{match.opponent}</span>
                     </div>

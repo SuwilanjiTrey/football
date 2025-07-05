@@ -16,27 +16,27 @@ const ZambianSoccerClubWebsite = () => {
   const players = [
     { 
       id: 1, 
-      name: 'Patson Daka',
+      name: 'Isaac Shamujompa',
       position: 'Forward',
-      number: 20,
-      stats: { goals: 45, assists: 12, rating: 8.4 },
-      image: '/football/patsondaka.png'
+      number: 19,
+      stats: { goals: 0, assists: 0, rating: 8.4 },
+      image: '/football/isaac-shamujompa.png'
     },
     { 
       id: 2, 
-      name: 'Fashion Sakala', 
-      position: 'Winger',
-      number: 17,
-      stats: { goals: 32, assists: 18, rating: 8.1 },
-      image: '/football/fashion_sakala.png'
+      name: 'Boyd Musonda', 
+      position: 'Midfield',
+      number: 21,
+      stats: { goals: 0, assists: 0, rating: 8.1 },
+      image: '/football/boyd-musonda.png'
     },
     { 
       id: 3, 
-      name: 'Stophila Sunzu', 
-      position: 'Midfielder',
-      number: 6,
-      stats: { goals: 8, assists: 25, rating: 8.7 },
-      image: '/football/sunzu.png'
+      name: 'Lameck Siame', 
+      position: 'Goal Keeper',
+      number: 15,
+      stats: { goals: 0, assists: 0, rating: 8.7 },
+      image: '/football/lamek.png'
     }
   ];
   
@@ -92,9 +92,9 @@ const ZambianSoccerClubWebsite = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-4 flex items-center">
                 <span className="w-8 h-8 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-white text-xs mr-3 border border-red-600">
-                  <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+                  <img src="/football/zanaco.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
                 </span>
-                CHIPOLOPOLO STARS
+                Zanaco FC stars
               </h2>
 
               <div className={`mt-8 transition-all duration-500 ${animatePlayer ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>

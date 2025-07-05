@@ -10,14 +10,14 @@ const Footer = () => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-sm border border-red-600">
-                  <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+                  <img src="/football/ZPL.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-green-400 to-orange-400 bg-clip-text text-transparent">
-                  CHIPOLOPOLO FC
+                  ZAMBIA PREMIER LEAGUE
                 </span>
               </div>
               <p className="text-gray-400 text-sm mb-6">
-                Join the Copper Bullets on our journey to glory as we represent the pride of Zambia on the football pitch.
+                Join the community on our journey to glory as we represent the pride of Zambia on the football pitch.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors duration-300">
@@ -87,7 +87,7 @@ const Footer = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-sm">info@chipolopolofc.zm</span>
+                  <span className="text-sm">info@zpl.zm</span>
                 </div>
                 <div className="mt-6">
                   <h4 className="text-sm font-bold text-white mb-3">Newsletter</h4>
@@ -108,7 +108,7 @@ const Footer = () => {
           
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 Chipolopolo FC. All rights reserved. | Unity. Work. Progress.
+              © 2025 ZPL. All rights reserved. | Unity. Work. Progress.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Privacy Policy</a>
@@ -121,5 +121,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
-
+export default Footer;
+
+
+

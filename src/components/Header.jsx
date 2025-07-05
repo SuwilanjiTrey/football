@@ -28,10 +28,10 @@ const Header = () => {
         {/* Logo - Updated with Zambian colors */}
         <div className="flex items-center space-x-2">
           <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl border-2 border-red-600">
-            <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+            <img src="/football/ZPL.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
           </div>
           <span className="text-2xl font-bold bg-gradient-to-r from-green-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
-            CHIPOLOPOLO FC
+            ZAMBIA PREMIER LEAGUE
           </span>
         </div>
         

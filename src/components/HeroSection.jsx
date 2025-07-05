@@ -22,7 +22,7 @@ const HeroSection = () => {
             UNITY. WORK.<br />PROGRESS.
           </h1>
           <p className="text-base sm:text-lg mb-6 max-w-sm mx-auto text-gray-200 leading-relaxed px-2">
-            Experience the pride of Zambian football with Chipolopolo FC - where the Copper Bullets forge legends on the pitch.
+            Experience the pride of Zambian football with Zambian Premier League - where the stars forge legends on the pitch.
           </p>
           <div className="flex flex-col gap-3 w-full max-w-xs mx-auto">
             <button className="w-full py-3 px-6 bg-gradient-to-r from-green-600 to-green-700 rounded-md font-bold text-base hover:from-green-700 hover:to-green-800 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-green-600/50">
@@ -42,7 +42,7 @@ const HeroSection = () => {
             UNITY. WORK. PROGRESS.
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-200">
-            Experience the pride of Zambian football with Chipolopolo FC - where the Copper Bullets forge legends on the pitch.
+            Experience the pride of Zambian football with Zambian Premier League - where the stars forge legends on the pitch.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <button className="px-8 py-3 bg-gradient-to-r from-green-600 to-green-700 rounded-md font-bold text-lg hover:from-green-700 hover:to-green-800 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-green-600/50">
@@ -65,9 +65,9 @@ const HeroSection = () => {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-xs font-bold border border-red-600 mr-2">
-                  <img src="/football/chipologo.png" alt="CFC" className="w-full h-full object-cover rounded-full" />
+                  <img src="/football/GEFC.jpeg" alt="CFC" className="w-full h-full object-cover rounded-full" />
                 </div>
-                <span className="font-bold text-xs">CHIPOLOPOLO FC</span>
+                <span className="font-bold text-xs">Green Eagles FC </span>
               </div>
               <span className="text-sm font-bold text-orange-400">VS</span>
               <div className="flex items-center">
@@ -89,9 +89,9 @@ const HeroSection = () => {
             <div className="flex justify-between items-center mb-2">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-orange-600 rounded-full flex items-center justify-center text-xs font-bold border border-red-600">
-                  <img src="/football/chipologo.png" alt="CFC" className="w-12 h-8 object-cover rounded-full" />
+                  <img src="/football/GEFC.jpeg" alt="CFC" className="w-12 h-8 object-cover rounded-full" />
                 </div>
-                <span className="ml-2 font-bold text-sm">CHIPOLOPOLO FC</span>
+                <span className="ml-2 font-bold text-sm">Green Eagles FC</span>
               </div>
               <span className="text-xl font-bold text-orange-400">VS</span>
               <div className="flex items-center">
@@ -113,4 +113,5 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSection;
+
