@@ -1,3 +1,4 @@
+// src/components/shop/Orders.jsx
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../auth/authContext';
 import firebaseService from '../../services/firebaseApi';
@@ -13,7 +14,7 @@ const Orders = ({ onNavigate }) => {
       return;
     }
     loadOrders();
-  }, [currentUser]);
+  }, [currentUser, onNavigate]);
 
   const loadOrders = async () => {
     setLoading(true);

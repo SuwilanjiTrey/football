@@ -1,3 +1,4 @@
+// src/components/shop/Checkout.jsx
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../auth/authContext';
 import firebaseService from '../../services/firebaseApi';
@@ -25,7 +26,7 @@ const Checkout = ({ onNavigate }) => {
       return;
     }
     loadCart();
-  }, [currentUser]);
+  }, [currentUser, onNavigate]);
 
   const loadCart = async () => {
     setLoading(true);
@@ -155,7 +156,7 @@ const Checkout = ({ onNavigate }) => {
 
               {/* Shipping Address */}
               <div className="bg-gray-800 rounded-lg p-6 border border-green-600/20">
-                <h2 className="text-2xl font-bold mb-6 text-orange-400">Shipping Address</h2>
+                <h2 className="text-2xl font-bold mb-6 text-green-400">Shipping Address</h2>
                 
                 <div className="space-y-4">
                   <div>
@@ -172,7 +173,7 @@ const Checkout = ({ onNavigate }) => {
                     />
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-semibold mb-2 text-gray-300">
                         City *
@@ -191,46 +192,35 @@ const Checkout = ({ onNavigate }) => {
                       <label className="block text-sm font-semibold mb-2 text-gray-300">
                         Province *
                       </label>
-                      <select
+                      <input
+                        type="text"
                         name="province"
                         value={formData.province}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 bg-gray-900 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-green-600"
-                      >
-                        <option value="">Select</option>
-                        <option value="lusaka">Lusaka</option>
-                        <option value="copperbelt">Copperbelt</option>
-                        <option value="southern">Southern</option>
-                        <option value="eastern">Eastern</option>
-                        <option value="western">Western</option>
-                        <option value="northern">Northern</option>
-                        <option value="luapula">Luapula</option>
-                        <option value="northwestern">Northwestern</option>
-                        <option value="central">Central</option>
-                        <option value="muchinga">Muchinga</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-semibold mb-2 text-gray-300">
-                        Postal Code
-                      </label>
-                      <input
-                        type="text"
-                        name="postalCode"
-                        value={formData.postalCode}
-                        onChange={handleChange}
                         className="w-full px-4 py-3 bg-gray-900 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-600"
                       />
                     </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold mb-2 text-gray-300">
+                      Postal Code
+                    </label>
+                    <input
+                      type="text"
+                      name="postalCode"
+                      value={formData.postalCode}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 bg-gray-900 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-600"
+                    />
                   </div>
                 </div>
               </div>
 
               {/* Payment Method */}
               <div className="bg-gray-800 rounded-lg p-6 border border-green-600/20">
-                <h2 className="text-2xl font-bold mb-6 text-red-400">Payment Method</h2>
+                <h2 className="text-2xl font-bold mb-6 text-green-400">Payment Method</h2>
                 
                 <div className="space-y-3">
                   <label className="flex items-center p-4 bg-gray-900 rounded-lg cursor-pointer hover:bg-gray-700 transition-colors">

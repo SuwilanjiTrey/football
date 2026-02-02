@@ -1,3 +1,4 @@
+// src/components/shop/shop.jsx
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../auth/authContext';
 import firebaseService from '../../services/firebaseApi';
@@ -23,17 +24,6 @@ const Shop = ({ onNavigate }) => {
   }, []);
 
   useEffect(() => {
-    filterProducts();
-  }, [selectedCategory, searchQuery, products]);
-
-  const loadProducts = async () => {
-    setLoading(true);
-    const data = await firebaseService.getProducts();
-    setProducts(data);
-    setLoading(false);
-  };
-
-  const filterProducts = () => {
     let filtered = products;
 
     if (selectedCategory !== 'all') {
@@ -49,6 +39,13 @@ const Shop = ({ onNavigate }) => {
     }
 
     setFilteredProducts(filtered);
+  }, [selectedCategory, searchQuery, products]);
+
+  const loadProducts = async () => {
+    setLoading(true);
+    const data = await firebaseService.getProducts();
+    setProducts(data);
+    setLoading(false);
   };
 
   const handleAddToCart = async (product) => {

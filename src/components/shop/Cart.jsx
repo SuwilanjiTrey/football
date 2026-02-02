@@ -1,3 +1,4 @@
+// src/components/shop/Cart.jsx
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../auth/authContext';
 import firebaseService from '../../services/firebaseApi';
@@ -13,7 +14,7 @@ const Cart = ({ onNavigate }) => {
       return;
     }
     loadCart();
-  }, [currentUser]);
+  }, [currentUser, onNavigate]);
 
   const loadCart = async () => {
     setLoading(true);
